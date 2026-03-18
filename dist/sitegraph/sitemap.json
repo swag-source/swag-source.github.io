@@ -8,21 +8,16 @@
     "backlinks": [],
     "nodeStyle": {}
   },
-  "vlogs/": {
+  "college/": {
     "external": false,
     "exists": true,
-    "title": "Vlogs",
+    "title": "Notes Index",
     "tags": [],
-    "links": [],
-    "backlinks": [],
-    "nodeStyle": {}
-  },
-  "/": {
-    "external": false,
-    "exists": true,
-    "title": "Ramiro Seltzer",
-    "tags": [],
-    "links": [],
+    "links": [
+      "college/organizacion-comp-2/",
+      "college/teoria-de-los-lenguajes/",
+      "college/introduccion-criptografia/"
+    ],
     "backlinks": [],
     "nodeStyle": {}
   },
@@ -37,6 +32,42 @@
     ],
     "nodeStyle": {}
   },
+  "college/introduccion-criptografia/": {
+    "external": false,
+    "exists": true,
+    "title": "Introducción a la Criptografía Moderna",
+    "tags": [],
+    "links": [
+      "college/introduccion-criptografia/clase-0/",
+      "college/introduccion-criptografia/clase-1/"
+    ],
+    "backlinks": [
+      "college/"
+    ],
+    "nodeStyle": {}
+  },
+  "college/introduccion-criptografia/clase-1/": {
+    "external": false,
+    "exists": true,
+    "title": "Clase 01 — Introduction",
+    "tags": [],
+    "links": [],
+    "backlinks": [
+      "college/introduccion-criptografia/"
+    ],
+    "nodeStyle": {}
+  },
+  "college/introduccion-criptografia/clase-0/": {
+    "external": false,
+    "exists": true,
+    "title": "Clase 00 — Prerequisites",
+    "tags": [],
+    "links": [],
+    "backlinks": [
+      "college/introduccion-criptografia/"
+    ],
+    "nodeStyle": {}
+  },
   "college/teoria-de-los-lenguajes/": {
     "external": false,
     "exists": true,
@@ -48,71 +79,22 @@
     ],
     "nodeStyle": {}
   },
-  "college/": {
+  "/": {
     "external": false,
     "exists": true,
-    "title": "Notes Index",
-    "tags": [],
-    "links": [
-      "college/organizacion-comp-2/",
-      "college/teoria-de-los-lenguajes/",
-      "college/introduccion-criptografia/"
-    ],
-    "backlinks": [],
-    "nodeStyle": {}
-  },
-  "college/introduccion-criptografia/": {
-    "external": false,
-    "exists": true,
-    "title": "Introducción a la Criptografía Moderna",
-    "tags": [],
-    "links": [
-      "college/introduccion-criptografia/clase-0md/",
-      "college/introduccion-criptografia/clase-1md/"
-    ],
-    "backlinks": [
-      "college/"
-    ],
-    "nodeStyle": {}
-  },
-  "college/introduccion-criptografia/clase-0/": {
-    "external": false,
-    "exists": true,
-    "title": "Clase 00 — Prerequisites",
+    "title": "Ramiro Seltzer",
     "tags": [],
     "links": [],
     "backlinks": [],
     "nodeStyle": {}
   },
-  "college/introduccion-criptografia/clase-1/": {
+  "vlogs/": {
     "external": false,
     "exists": true,
-    "title": "Clase 01 — Introduction",
+    "title": "Vlogs",
     "tags": [],
     "links": [],
     "backlinks": [],
-    "nodeStyle": {}
-  },
-  "college/introduccion-criptografia/clase-0md/": {
-    "external": false,
-    "exists": false,
-    "title": "clase-0md",
-    "tags": [],
-    "links": [],
-    "backlinks": [
-      "college/introduccion-criptografia/"
-    ],
-    "nodeStyle": {}
-  },
-  "college/introduccion-criptografia/clase-1md/": {
-    "external": false,
-    "exists": false,
-    "title": "clase-1md",
-    "tags": [],
-    "links": [],
-    "backlinks": [
-      "college/introduccion-criptografia/"
-    ],
     "nodeStyle": {}
   }
 }
