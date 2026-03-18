@@ -1,11 +1,42 @@
 :root {
-    --sl-content-width: 60rem;
+    --sl-content-width: 56rem;
+}
+
+/* Landing page hero */
+.hero {
+    padding-block: 5rem 3rem;
+}
+
+.hero h1 {
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+}
+
+.hero .tagline {
+    font-size: 1.1rem;
+    opacity: 0.75;
+    margin-block-start: 0.75rem;
+}
+
+/* Section cards */
+.section-grid {
+    margin-block-start: 3rem;
 }
 
 .sl-link-card {
     margin: 0;
+    border: 1px solid var(--sl-color-gray-5);
+    transition: border-color 0.2s ease, transform 0.2s ease;
 }
 
+.sl-link-card:hover {
+    border-color: var(--sl-color-accent);
+    transform: translateY(-2px);
+}
+
+/* Inline tag badges */
 .sl-badge:not(:last-of-type) {
     margin-inline-end: 0.25rem;
 }

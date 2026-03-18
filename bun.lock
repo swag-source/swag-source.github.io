@@ -3,7 +3,7 @@
   "configVersion": 0,
   "workspaces": {
     "": {
-      "name": "anew",
+      "name": "Ramiro Seltzer",
       "dependencies": {
         "@astrojs/starlight": "^0.34.3",
         "astro": "^5.7.13",

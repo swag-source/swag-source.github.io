@@ -1,80 +1,117 @@
 {
-  "astro-obsidian-starlight-notes-template/": {
+  "personal/": {
     "external": false,
     "exists": true,
-    "title": "Index",
+    "title": "Personal",
     "tags": [],
     "links": [],
     "backlinks": [],
     "nodeStyle": {}
   },
-  "astro-obsidian-starlight-notes-template/notes-vault2/welcome-to-vault-2/": {
+  "vlogs/": {
     "external": false,
     "exists": true,
-    "title": "Welcome to Vault 2",
-    "tags": [
-      "#astro",
-      "#obsidian",
-      "#vault2"
-    ],
-    "links": [
-      "astro-obsidian-starlight-notes-template/notes-vault2/create-a-link/"
-    ],
-    "backlinks": [],
-    "nodeStyle": {}
-  },
-  "astro-obsidian-starlight-notes-template/guides/example/": {
-    "external": false,
-    "exists": true,
-    "title": "Example Guide",
+    "title": "Vlogs",
     "tags": [],
     "links": [],
     "backlinks": [],
     "nodeStyle": {}
   },
-  "astro-obsidian-starlight-notes-template/notes-vault1/welcome-to-vault-1/": {
+  "/": {
     "external": false,
     "exists": true,
-    "title": "Welcome to Vault 1",
-    "tags": [
-      "#astro",
-      "#obsidian",
-      "#vault1"
-    ],
-    "links": [
-      "astro-obsidian-starlight-notes-template/notes-vault1/create-a-link/"
-    ],
-    "backlinks": [],
-    "nodeStyle": {}
-  },
-  "astro-obsidian-starlight-notes-template/reference/example/": {
-    "external": false,
-    "exists": true,
-    "title": "Example Reference",
+    "title": "Ramiro Seltzer",
     "tags": [],
     "links": [],
     "backlinks": [],
     "nodeStyle": {}
   },
-  "astro-obsidian-starlight-notes-template/notes-vault2/create-a-link/": {
+  "college/organizacion-comp-2/": {
     "external": false,
-    "exists": false,
-    "title": "create-a-link",
+    "exists": true,
+    "title": "Organización del Computador 2",
     "tags": [],
     "links": [],
     "backlinks": [
-      "astro-obsidian-starlight-notes-template/notes-vault2/welcome-to-vault-2/"
+      "college/"
     ],
     "nodeStyle": {}
   },
-  "astro-obsidian-starlight-notes-template/notes-vault1/create-a-link/": {
+  "college/teoria-de-los-lenguajes/": {
     "external": false,
-    "exists": false,
-    "title": "create-a-link",
+    "exists": true,
+    "title": "Teoría de los Lenguajes",
     "tags": [],
     "links": [],
     "backlinks": [
-      "astro-obsidian-starlight-notes-template/notes-vault1/welcome-to-vault-1/"
+      "college/"
+    ],
+    "nodeStyle": {}
+  },
+  "college/": {
+    "external": false,
+    "exists": true,
+    "title": "Notes Index",
+    "tags": [],
+    "links": [
+      "college/organizacion-comp-2/",
+      "college/teoria-de-los-lenguajes/",
+      "college/introduccion-criptografia/"
+    ],
+    "backlinks": [],
+    "nodeStyle": {}
+  },
+  "college/introduccion-criptografia/": {
+    "external": false,
+    "exists": true,
+    "title": "Introducción a la Criptografía Moderna",
+    "tags": [],
+    "links": [
+      "college/introduccion-criptografia/clase-0md/",
+      "college/introduccion-criptografia/clase-1md/"
+    ],
+    "backlinks": [
+      "college/"
+    ],
+    "nodeStyle": {}
+  },
+  "college/introduccion-criptografia/clase-0/": {
+    "external": false,
+    "exists": true,
+    "title": "Clase 00 — Prerequisites",
+    "tags": [],
+    "links": [],
+    "backlinks": [],
+    "nodeStyle": {}
+  },
+  "college/introduccion-criptografia/clase-1/": {
+    "external": false,
+    "exists": true,
+    "title": "Clase 01 — Introduction",
+    "tags": [],
+    "links": [],
+    "backlinks": [],
+    "nodeStyle": {}
+  },
+  "college/introduccion-criptografia/clase-0md/": {
+    "external": false,
+    "exists": false,
+    "title": "clase-0md",
+    "tags": [],
+    "links": [],
+    "backlinks": [
+      "college/introduccion-criptografia/"
+    ],
+    "nodeStyle": {}
+  },
+  "college/introduccion-criptografia/clase-1md/": {
+    "external": false,
+    "exists": false,
+    "title": "clase-1md",
+    "tags": [],
+    "links": [],
+    "backlinks": [
+      "college/introduccion-criptografia/"
     ],
     "nodeStyle": {}
   }

@@ -1,9 +1,35 @@
 ---
-title: Index
-pagefind: false
-tableOfContents: false
+title: Ramiro Seltzer
+description: Personal thoughts, college notes, and more — collected in one place.
+template: splash
+hero:
+  title: Ramiro Seltzer - Notes
+  tagline: Personal thoughts, college notes, and more — collected in one place.
+  actions:
+    - text: Browse notes
+      link: /personal/
+      icon: right-arrow
+      variant: primary
 ---
 
-import { HomeComponent } from '/src/components/components';
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
 
-<HomeComponent />
+<div class="section-grid">
+  <CardGrid>
+    <LinkCard
+      title="Personal"
+      href="/personal/"
+      description="Day-to-day thoughts and personal entries."
+    />
+    <LinkCard
+      title="FCEyN - Notes"
+      href="/college/"
+      description="Academic notes and study material."
+    />
+    <LinkCard
+      title="Vlogs"
+      href="/vlogs/"
+      description="Coming soon."
+    />
+  </CardGrid>
+</div>
