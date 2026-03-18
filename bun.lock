@@ -1,14 +1,15 @@
 {
   "lockfileVersion": 1,
+  "configVersion": 0,
   "workspaces": {
     "": {
       "name": "anew",
       "dependencies": {
-        "@astrojs/starlight": "latest",
-        "astro": "latest",
-        "starlight-blog": "latest",
-        "starlight-obsidian": "latest",
-        "starlight-theme-obsidian": "latest",
+        "@astrojs/starlight": "^0.34.3",
+        "astro": "^5.7.13",
+        "starlight-blog": "^0.23.2",
+        "starlight-obsidian": "^0.9.0",
+        "starlight-theme-obsidian": "^0.3.1",
       },
     },
   },

@@ -1,0 +1,81 @@
+{
+  "astro-obsidian-starlight-notes-template/": {
+    "external": false,
+    "exists": true,
+    "title": "Index",
+    "tags": [],
+    "links": [],
+    "backlinks": [],
+    "nodeStyle": {}
+  },
+  "astro-obsidian-starlight-notes-template/notes-vault2/welcome-to-vault-2/": {
+    "external": false,
+    "exists": true,
+    "title": "Welcome to Vault 2",
+    "tags": [
+      "#astro",
+      "#obsidian",
+      "#vault2"
+    ],
+    "links": [
+      "astro-obsidian-starlight-notes-template/notes-vault2/create-a-link/"
+    ],
+    "backlinks": [],
+    "nodeStyle": {}
+  },
+  "astro-obsidian-starlight-notes-template/guides/example/": {
+    "external": false,
+    "exists": true,
+    "title": "Example Guide",
+    "tags": [],
+    "links": [],
+    "backlinks": [],
+    "nodeStyle": {}
+  },
+  "astro-obsidian-starlight-notes-template/notes-vault1/welcome-to-vault-1/": {
+    "external": false,
+    "exists": true,
+    "title": "Welcome to Vault 1",
+    "tags": [
+      "#astro",
+      "#obsidian",
+      "#vault1"
+    ],
+    "links": [
+      "astro-obsidian-starlight-notes-template/notes-vault1/create-a-link/"
+    ],
+    "backlinks": [],
+    "nodeStyle": {}
+  },
+  "astro-obsidian-starlight-notes-template/reference/example/": {
+    "external": false,
+    "exists": true,
+    "title": "Example Reference",
+    "tags": [],
+    "links": [],
+    "backlinks": [],
+    "nodeStyle": {}
+  },
+  "astro-obsidian-starlight-notes-template/notes-vault2/create-a-link/": {
+    "external": false,
+    "exists": false,
+    "title": "create-a-link",
+    "tags": [],
+    "links": [],
+    "backlinks": [
+      "astro-obsidian-starlight-notes-template/notes-vault2/welcome-to-vault-2/"
+    ],
+    "nodeStyle": {}
+  },
+  "astro-obsidian-starlight-notes-template/notes-vault1/create-a-link/": {
+    "external": false,
+    "exists": false,
+    "title": "create-a-link",
+    "tags": [],
+    "links": [],
+    "backlinks": [
+      "astro-obsidian-starlight-notes-template/notes-vault1/welcome-to-vault-1/"
+    ],
+    "nodeStyle": {}
+  }
+}
